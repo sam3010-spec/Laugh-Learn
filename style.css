@@ -1,0 +1,31 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4f46e5; /* indigo-600 */
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text {
+    color: #4b5563; /* gray-700 */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

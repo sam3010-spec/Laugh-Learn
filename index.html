@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laugh & Learn</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-yellow-100 min-h-screen flex flex-col justify-center items-center p-6">
+
+  <h1 class="text-4xl font-bold text-center mb-6 text-gray-800">😂 Laugh & Learn 🧠</h1>
+
+  <div id="content" class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
+    <!-- Joke Card -->
+    <div class="card">
+      <h2 class="card-title">Joke</h2>
+      <p id="joke-setup" class="card-text italic">Click the button to laugh!</p>
+      <p id="joke-punchline" class="card-text font-semibold mt-2 text-lg"></p>
+    </div>
+
+    <!-- Fun Fact Card -->
+    <div class="card">
+      <h2 class="card-title">Fun Fact</h2>
+      <p id="fun-fact" class="card-text">Click the button to learn something new!</p>
+    </div>
+  </div>
+
+  <!-- Button -->
+  <button id="generate-btn" class="mt-8 px-6 py-3 bg-purple-600 text-white rounded-xl shadow-lg hover:bg-purple-700 transition">
+    🎲 Give Me a Laugh & a Fact!
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
